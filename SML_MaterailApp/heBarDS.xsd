@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="heBarDS" targetNamespace="http://tempuri.org/heBarDS.xsd" xmlns:mstns="http://tempuri.org/heBarDS.xsd" xmlns="http://tempuri.org/heBarDS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="heBarDS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="heBarDS" msprop:Generator_UserDSName="heBarDS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="heBarDt" msprop:Generator_TableClassName="heBarDtDataTable" msprop:Generator_TableVarName="tableheBarDt" msprop:Generator_RowChangedName="heBarDtRowChanged" msprop:Generator_TablePropName="heBarDt" msprop:Generator_RowDeletingName="heBarDtRowDeleting" msprop:Generator_RowChangingName="heBarDtRowChanging" msprop:Generator_RowEvHandlerName="heBarDtRowChangeEventHandler" msprop:Generator_RowDeletedName="heBarDtRowDeleted" msprop:Generator_RowClassName="heBarDtRow" msprop:Generator_UserTableName="heBarDt" msprop:Generator_RowEvArgName="heBarDtRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="cinvcode" msprop:Generator_ColumnVarNameInTable="columncinvcode" msprop:Generator_ColumnPropNameInRow="cinvcode" msprop:Generator_ColumnPropNameInTable="cinvcodeColumn" msprop:Generator_UserColumnName="cinvcode" type="xs:string" minOccurs="0" />
+              <xs:element name="cinvname" msprop:Generator_ColumnVarNameInTable="columncinvname" msprop:Generator_ColumnPropNameInRow="cinvname" msprop:Generator_ColumnPropNameInTable="cinvnameColumn" msprop:Generator_UserColumnName="cinvname" type="xs:string" minOccurs="0" />
+              <xs:element name="iquantity" msprop:Generator_ColumnVarNameInTable="columniquantity" msprop:Generator_ColumnPropNameInRow="iquantity" msprop:Generator_ColumnPropNameInTable="iquantityColumn" msprop:Generator_UserColumnName="iquantity" type="xs:string" minOccurs="0" />
+              <xs:element name="cposcode" msprop:Generator_ColumnVarNameInTable="columncposcode" msprop:Generator_ColumnPropNameInRow="cposcode" msprop:Generator_ColumnPropNameInTable="cposcodeColumn" msprop:Generator_UserColumnName="cposcode" type="xs:string" minOccurs="0" />
+              <xs:element name="cmocode1" msprop:Generator_ColumnVarNameInTable="columncmocode1" msprop:Generator_ColumnPropNameInRow="cmocode1" msprop:Generator_ColumnPropNameInTable="cmocode1Column" msprop:Generator_UserColumnName="cmocode1" type="xs:string" minOccurs="0" />
+              <xs:element name="cmocode2" msprop:Generator_ColumnVarNameInTable="columncmocode2" msprop:Generator_ColumnPropNameInRow="cmocode2" msprop:Generator_ColumnPropNameInTable="cmocode2Column" msprop:Generator_UserColumnName="cmocode2" type="xs:string" minOccurs="0" />
+              <xs:element name="cmocode3" msprop:Generator_ColumnVarNameInTable="columncmocode3" msprop:Generator_ColumnPropNameInRow="cmocode3" msprop:Generator_ColumnPropNameInTable="cmocode3Column" msprop:Generator_UserColumnName="cmocode3" type="xs:string" minOccurs="0" />
+              <xs:element name="cmocode4" msprop:Generator_ColumnVarNameInTable="columncmocode4" msprop:Generator_ColumnPropNameInRow="cmocode4" msprop:Generator_ColumnPropNameInTable="cmocode4Column" msprop:Generator_UserColumnName="cmocode4" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="cmocode5" msprop:Generator_ColumnVarNameInTable="columncmocode5" msprop:Generator_ColumnPropNameInRow="cmocode5" msprop:Generator_ColumnPropNameInTable="cmocode5Column" msprop:Generator_UserColumnName="cmocode5" type="xs:string" minOccurs="0" />
+              <xs:element name="cmocode6" msprop:Generator_ColumnVarNameInTable="columncmocode6" msprop:Generator_ColumnPropNameInRow="cmocode6" msprop:Generator_ColumnPropNameInTable="cmocode6Column" msprop:Generator_UserColumnName="cmocode6" type="xs:string" minOccurs="0" />
+              <xs:element name="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" minOccurs="0" />
+              <xs:element name="autoid" msprop:Generator_ColumnVarNameInTable="columnautoid" msprop:Generator_ColumnPropNameInRow="autoid" msprop:Generator_ColumnPropNameInTable="autoidColumn" msprop:Generator_UserColumnName="autoid" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
